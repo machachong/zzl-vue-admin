@@ -4,6 +4,8 @@ defineProps({
   msg: String,
 })
 const count = ref(0)
+const aa = ref(1)
+console.log(aa.value)
 </script>
 
 <template>
